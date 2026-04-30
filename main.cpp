@@ -5,7 +5,7 @@
 using namespace std;
 
 struct student {            // struct
-	string name[50];
+	string name;
 	int id;
 	float grades[5];
 	float average;
@@ -28,7 +28,7 @@ float calculatAverage(float grade[])		//function 1 calculate grade
 
 char calculateStatus(float average){			// function 2 calculate avarage
 	if (average >= 60){
-		return 'p';
+		return 'P';
 	}
 	else{
 		return 'f';
