@@ -46,7 +46,7 @@ void addstudent()    // function 3 Add student
     
     student &s = students[studentCount];
     cout << "Enter your name :" << "\n";
-    cin>>students[studentCount].name[studentCount];
+    cin >> s.name;
     s.id = studentCount + 1;
     for (int i = 0; i < 5; i++)
     {
